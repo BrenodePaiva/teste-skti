@@ -1,3 +1,4 @@
+document.addEventListener('DOMContentLoaded', () => {
   
   const swiperCards = new Swiper('.card-content', {
     loop: true,
@@ -30,16 +31,19 @@
     },
   });
 
+  
   const swiperSlides = new Swiper('.mySwiper', {
     loop: true,
     spaceBetween: '100%',
     speed:2000,
-
+    
     autoplay: {
       delay: 2000,
     },
     
   });
+
+})
 
   
   

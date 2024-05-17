@@ -2,12 +2,15 @@ window.onscroll = () => {
     const changeBackgroud = document.querySelector('header')
     const sections = document.querySelectorAll('section')
     const navLinks = document.querySelectorAll('header nav a')
+    const linskBack = document.querySelector('.link-back')
 
-    if (window.pageYOffset > 1) {
+    if (window.pageYOffset > 150) {
         changeBackgroud.classList.add('blur')
+        linskBack.style.opacity = 1
     }
-    if (window.pageYOffset <= 1) {
+    if (window.pageYOffset <= 150) {
         changeBackgroud.classList.remove('blur')
+        linskBack.style.opacity = 0
     }
 
     sections.forEach(sec => {
@@ -48,41 +51,8 @@ function navToggleClose() {
 toggleOpen.addEventListener('click', navToggleOpen)
 toggleClose.addEventListener('click', navToggleClose)
 
-// ajustando o tamanho do banner do serviços
-const screen = {
-    large : null,
-    medium: window.matchMedia('(max-width: 860px)'),
-    small: window.matchMedia('(max-width: 450px)')
-}
-
-for (const [screenSize, mediaQuery] of Object.entries(screen)) {
-    if (mediaQuery) mediaQuery.addEventListener('change', mqHandler)
-}
-
-function mqHandler() {
-    const banner = document.querySelector('.service-banner')
-    
-    for (const [screenSize, mediaQuery] of Object.entries(screen)) {
-        if (!mediaQuery || mediaQuery.matches) {
-            if (screenSize == 'medium') {
-                banner.style.backgroundSize = '100% 100%'
-                banner.style.height = '300px'
-            }
-            else if(screenSize == 'small'){
-                banner.style.height = '200px'
-            }
-            else if(screenSize == 'large'){
-                banner.style.backgroundSize = 'cover'
-                banner.style.height = '400px'
-            }
-        }
-    }
-}
-
-mqHandler()
-//------------------------------------------
 
 
 const date = new Date()
 const currentYear = date.getFullYear()
-document.getElementById('current-year').innerHTML = currentYear + '&nbsp;'
+document.getElementById('current-year').innerHTML = '&nbsp;' + currentYear + '&nbsp;'
