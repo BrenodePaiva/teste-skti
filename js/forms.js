@@ -1,5 +1,9 @@
 const form = document.getElementById('form');
 const button = document.getElementById('button');
+const fullname = document.getElementById('name')
+const email = document.getElementById('email')
+const phone = document.getElementById('phone')
+const message = document.getElementById('message')
 
 function checkInputs() {
    const items = document.querySelectorAll('.item')
@@ -34,8 +38,9 @@ form.addEventListener('submit', function(e) {
 
     button.innerHTML = '<i class="fa fa-refresh fa-spin"></i>'
 
-    if (fullname.classList.contains('error') &&
-    message.classList.contains('error')) {
+    if (fullname.classList.contains('error') ||
+    email.classList.contains('error') || phone.classList.contains('error') || 
+    message.classList.contains('error'))  {
       Swal.fire({
                   title: 'Error!',
                   text: 'Preencha todos os campos',

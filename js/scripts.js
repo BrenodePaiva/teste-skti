@@ -1,8 +1,8 @@
 window.onscroll = () => {
-    const changeBackgroud = document.querySelector('header')
-    const sections = document.querySelectorAll('section')
-    const navLinks = document.querySelectorAll('header nav a')
-    const linskBack = document.querySelector('.link-back')
+const changeBackgroud = document.querySelector('header')
+const sections = document.querySelectorAll('section')
+const navLinks = document.querySelectorAll('header nav a')
+const linskBack = document.querySelector('.link-back')
 
     if (window.pageYOffset > 150) {
         changeBackgroud.classList.add('blur')

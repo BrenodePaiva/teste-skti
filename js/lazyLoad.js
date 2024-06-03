@@ -1,8 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     const imgLazy = document.querySelectorAll('img.lazy')
 
-    document.querySelector('body').style.display = 'block'
-
     function lazyLoad() {
         let scrollTop = window.pageYOffset
 

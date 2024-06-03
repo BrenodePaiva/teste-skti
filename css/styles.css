@@ -10,6 +10,7 @@
     outline: none;
     text-decoration: none;
     scroll-behavior: smooth;
+    scroll-padding-top: 89px;
 }
 body{
     font-family: "Questrial", sans-serif;
@@ -174,7 +175,7 @@ nav a:nth-child(6).active ~ span {
 
 /* ----------sessões----------- */
 section {
-    padding: 90px 7% 0;
+    padding: 60px 7% 0;
     display: flex;
     background: #fff;
     color: #000;
@@ -296,7 +297,7 @@ section:nth-child(5){
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: calc(80px + 60px) 10px 120px;
+    padding: 60px 10px 120px;
 }
 #service h2{
     font-size: 45px;
@@ -422,7 +423,7 @@ section:nth-child(5){
 #partener{
     display: flex;
     flex-direction: column;
-    padding: calc(75px + 50px) 40px 0;
+    padding: 60px 40px 0;
 }
 #partener h2{
     text-align: center;
@@ -896,7 +897,7 @@ footer img{
 
     /* ------------sessões----------------------- */
     section{
-        padding: 90px 5% 0;
+        padding: 60px 5% 0;
     }
 
 
