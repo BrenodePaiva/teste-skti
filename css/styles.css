@@ -18,6 +18,60 @@ body{
     font-style: normal;
 }
 
+/* ----------Animations---------- */
+.hidden{
+    opacity: 0;
+    filter: blur(15px);
+    transition: all 1s;
+    transition-delay: 0.2s;
+}
+.show{
+    opacity: 1;
+    filter: blur(0px);
+    transition: all 1s;
+    transition-delay: 0.2s;
+}
+.hidden-up{
+    opacity: 0;
+    /* filter: blur(15px); */
+    transform: translateY(50px);
+    transition: all 1s;
+    transition-delay: 0.2s;
+}
+.show-up{
+    opacity: 1;
+    /* filter: blur(0); */
+    transform: translateY(0);
+    transition: all 1s;
+    transition-delay: 0.2s;
+}
+.hidden-left{
+    opacity: 0;
+    /* filter: blur(15px); */
+    transform: translateX(-50px);
+    transition: all 1s;
+    transition-delay: 0.2s;
+}
+.show-left{
+    opacity: 1;
+    /* filter: blur(0); */
+    transform: translateX(0px);
+    transition: all 1s;
+    transition-delay: 0.2s;
+}
+.hidden-slider{
+    opacity: 0;
+    /* filter: blur(15px); */
+    transform: translateX(-50px);
+    transition: opacity 1s, transform 1s;
+}
+.show-slider{
+    opacity: 1;
+    /* filter: blur(0px); */
+    transform: translateX(0px);
+    transition: opacity 1s, transform 1s;;
+}
+
 
 /* ---------Popup---------------- */
 .pop-up{
@@ -269,6 +323,21 @@ section:nth-child(5){
     justify-content: center;
     gap: 50px 20px;
     margin: 90px 0;
+}
+.about-content :nth-child(2){
+    transition-delay: 400ms;
+}
+.about-content :nth-child(3){
+    transition-delay: 700ms;
+}
+.about-content :nth-child(4){
+    transition-delay: 1000ms;
+}
+.about-content :nth-child(5){
+    transition-delay: 1300ms;
+}
+.about-content :nth-child(6){
+    transition-delay: 1600ms;
 }
 .about-card{
     padding: 0 20px 36px;
@@ -706,10 +775,23 @@ form button:hover{
     justify-items: center;
     align-items: center;
 }
+.address-social :nth-child(1){
+    transition-delay: 400ms;
+}
+.address-social :nth-child(2){
+    transition-delay: 700ms;
+}
+.address-social :nth-child(3){
+    transition-delay: 1000ms;
+}
 .address-social i{
     font-size: 27px;
     color: #fff;
-    margin: 30px 0 10px
+    margin: 30px 0 10px;
+    cursor: pointer;
+}
+.address-social i:hover{
+    color: rgba(255, 255, 255, .6)
 }
 .contact-address img{
     opacity: 0.39;
