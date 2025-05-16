@@ -698,10 +698,11 @@ section:nth-child(5){
 
     img{
         width: 200px;
-    }
-
-    a{
-        text-decoration: none;
+        transition: 0.2s linear;
+        
+        &:hover{
+            opacity: 0.8;
+        }
     }
 }
 
