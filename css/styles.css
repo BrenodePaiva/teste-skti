@@ -280,6 +280,11 @@ section:nth-child(5){
     img{
         width: 60px;
         border-radius: 50%;
+        transition: 0.2s ease-in-out;
+
+        &:hover{
+            transform: scale(1.1);
+        }
     }
 }
 
@@ -350,13 +355,13 @@ section:nth-child(5){
     transition-delay: 700ms;
 }
 .about-content :nth-child(4){
-    transition-delay: 1000ms;
+    transition-delay: 800ms;
 }
 .about-content :nth-child(5){
-    transition-delay: 1300ms;
+    transition-delay: 900ms;
 }
 .about-content :nth-child(6){
-    transition-delay: 1600ms;
+    transition-delay: 1000ms;
 }
 .about-card{
     padding: 0 20px 36px;
