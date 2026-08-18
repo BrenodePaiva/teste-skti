@@ -4,6 +4,19 @@ const fileInput = document.querySelector(".file-input");
 const fileName = document.getElementById("fileName");
 const MAX_FILE_SIZE = 4 * 1024 * 1024;
 
+const phoneMask = IMask(document.getElementById("phone"), {
+  mask: [
+    { mask: "(00) 0000-0000" },
+    { mask: "(00) 00000-0000" },
+  ],
+  dispatch: (appended, dynamicMasked) => {
+    const digits = (dynamicMasked.value + appended).replace(/\D/g, "");
+    return digits.length > 10
+      ? dynamicMasked.compiledMasks[1]
+      : dynamicMasked.compiledMasks[0];
+  },
+});
+
 function markError(item) {
   item.classList.add("error");
   item.parentElement.classList.add("error");
@@ -99,19 +112,42 @@ form.addEventListener("submit", function (e) {
         });
       } else {
         let message = "Alguma coisa deu errado, tente novamente mais tarde";
+        let details = "";
         try {
           const data = await response.json();
           if (data && data.message) {
             message = data.message;
           }
+          if (data && typeof data.errors === "object" && data.errors !== null) {
+            const labels = {
+              name: "Nome",
+              email: "E-mail",
+              phone: "Telefone",
+              file: "Currículo",
+            };
+            const lines = [];
+            for (const [field, messages] of Object.entries(data.errors)) {
+              const label = labels[field] || field;
+              for (const msg of messages) {
+                lines.push(`${label}: ${msg}`);
+              }
+            }
+            if (Array.isArray(data.formErrors)) {
+              for (const msg of data.formErrors) {
+                lines.push(msg);
+              }
+            }
+            details = lines.join("<br>");
+          }
         } catch (err) {
           // Resposta sem corpo JSON (ex.: 413 da plataforma).
         }
+        const content = details ? `${message}<br><br>${details}` : message;
         Swal.fire({
           title: "Error!",
-          text: message,
           icon: "error",
           confirmButtonText: "Ok",
+          ...(details ? { html: content } : { text: content }),
         });
       }
     })
@@ -126,6 +162,7 @@ form.addEventListener("submit", function (e) {
     })
     .then(function () {
       form.reset();
+      phoneMask.value = "";
       fileName.textContent = "Nenhum arquivo selecionado";
       button.classList.remove("loading");
       button.disabled = false;

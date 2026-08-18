@@ -153,6 +153,18 @@
       "norm_label": "addeventlistener()"
     },
     {
+      "label": "B()",
+      "file_type": "code",
+      "source_file": "js/swiper-bundle.min.js",
+      "source_location": "L13",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "js_swiper_bundle_min_b",
+      "community": 0,
+      "community_name": "l",
+      "norm_label": "b()"
+    },
+    {
       "label": "C()",
       "file_type": "code",
       "source_file": "js/swiper-bundle.min.js",
@@ -187,18 +199,6 @@
       "community": 0,
       "community_name": "l",
       "norm_label": "u()"
-    },
-    {
-      "label": "clearTimeout()",
-      "file_type": "code",
-      "source_file": "js/swiper-bundle.min.js",
-      "source_location": "L13",
-      "_callable": true,
-      "_origin": "ast",
-      "id": "js_swiper_bundle_min_cleartimeout",
-      "community": 0,
-      "community_name": "l",
-      "norm_label": "cleartimeout()"
     },
     {
       "label": "d()",
@@ -237,18 +237,6 @@
       "norm_label": "f()"
     },
     {
-      "label": "g()",
-      "file_type": "code",
-      "source_file": "js/swiper-bundle.min.js",
-      "source_location": "L13",
-      "_callable": true,
-      "_origin": "ast",
-      "id": "js_swiper_bundle_min_g",
-      "community": 0,
-      "community_name": "l",
-      "norm_label": "g()"
-    },
-    {
       "label": "h()",
       "file_type": "code",
       "source_file": "js/swiper-bundle.min.js",
@@ -271,18 +259,6 @@
       "community": 0,
       "community_name": "l",
       "norm_label": "i()"
-    },
-    {
-      "label": "K()",
-      "file_type": "code",
-      "source_file": "js/swiper-bundle.min.js",
-      "source_location": "L13",
-      "_callable": true,
-      "_origin": "ast",
-      "id": "js_swiper_bundle_min_k",
-      "community": 0,
-      "community_name": "l",
-      "norm_label": "k()"
     },
     {
       "label": "l()",
@@ -357,30 +333,6 @@
       "norm_label": "off()"
     },
     {
-      "label": "on()",
-      "file_type": "code",
-      "source_file": "js/swiper-bundle.min.js",
-      "source_location": "L13",
-      "_callable": true,
-      "_origin": "ast",
-      "id": "js_swiper_bundle_min_on",
-      "community": 0,
-      "community_name": "l",
-      "norm_label": "on()"
-    },
-    {
-      "label": "once()",
-      "file_type": "code",
-      "source_file": "js/swiper-bundle.min.js",
-      "source_location": "L13",
-      "_callable": true,
-      "_origin": "ast",
-      "id": "js_swiper_bundle_min_once",
-      "community": 0,
-      "community_name": "l",
-      "norm_label": "once()"
-    },
-    {
       "label": "i()",
       "file_type": "code",
       "source_file": "js/swiper-bundle.min.js",
@@ -415,6 +367,18 @@
       "community": 0,
       "community_name": "l",
       "norm_label": "r()"
+    },
+    {
+      "label": "removeEventListener()",
+      "file_type": "code",
+      "source_file": "js/swiper-bundle.min.js",
+      "source_location": "L13",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "js_swiper_bundle_min_removeeventlistener",
+      "community": 0,
+      "community_name": "l",
+      "norm_label": "removeeventlistener()"
     },
     {
       "label": "s()",
@@ -465,18 +429,6 @@
       "norm_label": "u()"
     },
     {
-      "label": ".mount()",
-      "file_type": "code",
-      "source_file": "js/swiper-bundle.min.js",
-      "source_location": "L13",
-      "_callable": true,
-      "_origin": "ast",
-      "id": "js_swiper_bundle_min_v_mount",
-      "community": 0,
-      "community_name": "l",
-      "norm_label": ".mount()"
-    },
-    {
       "label": "a()",
       "file_type": "code",
       "source_file": "js/swiper-bundle.min.js",
@@ -487,6 +439,18 @@
       "community": 0,
       "community_name": "l",
       "norm_label": "a()"
+    },
+    {
+      "label": "w()",
+      "file_type": "code",
+      "source_file": "js/swiper-bundle.min.js",
+      "source_location": "L13",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "js_swiper_bundle_min_w",
+      "community": 0,
+      "community_name": "l",
+      "norm_label": "w()"
     },
     {
       "label": "x()",
@@ -513,18 +477,6 @@
       "norm_label": "y()"
     },
     {
-      "label": "Z()",
-      "file_type": "code",
-      "source_file": "js/swiper-bundle.min.js",
-      "source_location": "L13",
-      "_callable": true,
-      "_origin": "ast",
-      "id": "js_swiper_bundle_min_z",
-      "community": 0,
-      "community_name": "l",
-      "norm_label": "z()"
-    },
-    {
       "label": "emit()",
       "file_type": "code",
       "source_file": "js/swiper-bundle.min.js",
@@ -537,6 +489,18 @@
       "norm_label": "emit()"
     },
     {
+      "label": "g()",
+      "file_type": "code",
+      "source_file": "js/swiper-bundle.min.js",
+      "source_location": "L13",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "js_swiper_bundle_min_g",
+      "community": 1,
+      "community_name": "v",
+      "norm_label": "g()"
+    },
+    {
       "label": "J()",
       "file_type": "code",
       "source_file": "js/swiper-bundle.min.js",
@@ -547,6 +511,18 @@
       "community": 1,
       "community_name": "v",
       "norm_label": "j()"
+    },
+    {
+      "label": "K()",
+      "file_type": "code",
+      "source_file": "js/swiper-bundle.min.js",
+      "source_location": "L13",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "js_swiper_bundle_min_k",
+      "community": 1,
+      "community_name": "v",
+      "norm_label": "k()"
     },
     {
       "label": "onAny()",
@@ -571,6 +547,18 @@
       "community": 1,
       "community_name": "v",
       "norm_label": "q()"
+    },
+    {
+      "label": "setTimeout()",
+      "file_type": "code",
+      "source_file": "js/swiper-bundle.min.js",
+      "source_location": "L13",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "js_swiper_bundle_min_settimeout",
+      "community": 1,
+      "community_name": "v",
+      "norm_label": "settimeout()"
     },
     {
       "label": ".changeDirection()",
@@ -741,6 +729,18 @@
       "norm_label": ".installmodule()"
     },
     {
+      "label": ".mount()",
+      "file_type": "code",
+      "source_file": "js/swiper-bundle.min.js",
+      "source_location": "L13",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "js_swiper_bundle_min_v_mount",
+      "community": 1,
+      "community_name": "v",
+      "norm_label": ".mount()"
+    },
+    {
       "label": ".setProgress()",
       "file_type": "code",
       "source_file": "js/swiper-bundle.min.js",
@@ -789,6 +789,18 @@
       "norm_label": ".use()"
     },
     {
+      "label": "Z()",
+      "file_type": "code",
+      "source_file": "js/swiper-bundle.min.js",
+      "source_location": "L13",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "js_swiper_bundle_min_z",
+      "community": 1,
+      "community_name": "v",
+      "norm_label": "z()"
+    },
+    {
       "label": "mqHandler()",
       "file_type": "code",
       "source_file": "js/resizeBanner.js",
@@ -825,18 +837,6 @@
       "norm_label": "ae()"
     },
     {
-      "label": "B()",
-      "file_type": "code",
-      "source_file": "js/swiper-bundle.min.js",
-      "source_location": "L13",
-      "_callable": true,
-      "_origin": "ast",
-      "id": "js_swiper_bundle_min_b",
-      "community": 2,
-      "community_name": "swiper-bundle.min.js",
-      "norm_label": "b()"
-    },
-    {
       "label": "back()",
       "file_type": "code",
       "source_file": "js/swiper-bundle.min.js",
@@ -871,6 +871,18 @@
       "community": 2,
       "community_name": "swiper-bundle.min.js",
       "norm_label": "cancelanimationframe()"
+    },
+    {
+      "label": "clearTimeout()",
+      "file_type": "code",
+      "source_file": "js/swiper-bundle.min.js",
+      "source_location": "L13",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "js_swiper_bundle_min_cleartimeout",
+      "community": 2,
+      "community_name": "swiper-bundle.min.js",
+      "norm_label": "cleartimeout()"
     },
     {
       "label": "Date()",
@@ -957,6 +969,30 @@
       "norm_label": "offany()"
     },
     {
+      "label": "on()",
+      "file_type": "code",
+      "source_file": "js/swiper-bundle.min.js",
+      "source_location": "L13",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "js_swiper_bundle_min_on",
+      "community": 2,
+      "community_name": "swiper-bundle.min.js",
+      "norm_label": "on()"
+    },
+    {
+      "label": "once()",
+      "file_type": "code",
+      "source_file": "js/swiper-bundle.min.js",
+      "source_location": "L13",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "js_swiper_bundle_min_once",
+      "community": 2,
+      "community_name": "swiper-bundle.min.js",
+      "norm_label": "once()"
+    },
+    {
       "label": "pushState()",
       "file_type": "code",
       "source_file": "js/swiper-bundle.min.js",
@@ -967,18 +1003,6 @@
       "community": 2,
       "community_name": "swiper-bundle.min.js",
       "norm_label": "pushstate()"
-    },
-    {
-      "label": "removeEventListener()",
-      "file_type": "code",
-      "source_file": "js/swiper-bundle.min.js",
-      "source_location": "L13",
-      "_callable": true,
-      "_origin": "ast",
-      "id": "js_swiper_bundle_min_removeeventlistener",
-      "community": 2,
-      "community_name": "swiper-bundle.min.js",
-      "norm_label": "removeeventlistener()"
     },
     {
       "label": "replaceState()",
@@ -1027,30 +1051,6 @@
       "community": 2,
       "community_name": "swiper-bundle.min.js",
       "norm_label": "setattribute()"
-    },
-    {
-      "label": "setTimeout()",
-      "file_type": "code",
-      "source_file": "js/swiper-bundle.min.js",
-      "source_location": "L13",
-      "_callable": true,
-      "_origin": "ast",
-      "id": "js_swiper_bundle_min_settimeout",
-      "community": 2,
-      "community_name": "swiper-bundle.min.js",
-      "norm_label": "settimeout()"
-    },
-    {
-      "label": "w()",
-      "file_type": "code",
-      "source_file": "js/swiper-bundle.min.js",
-      "source_location": "L13",
-      "_callable": true,
-      "_origin": "ast",
-      "id": "js_swiper_bundle_min_w",
-      "community": 2,
-      "community_name": "swiper-bundle.min.js",
-      "norm_label": "w()"
     },
     {
       "label": "getDistanceFromTheTop()",
@@ -1140,7 +1140,7 @@
       "label": "checkInputs()",
       "file_type": "code",
       "source_file": "js/curriculo-form.js",
-      "source_location": "L17",
+      "source_location": "L30",
       "_callable": true,
       "_origin": "ast",
       "id": "js_curriculo_form_checkinputs",
@@ -1152,7 +1152,7 @@
       "label": "clearError()",
       "file_type": "code",
       "source_file": "js/curriculo-form.js",
-      "source_location": "L12",
+      "source_location": "L25",
       "_callable": true,
       "_origin": "ast",
       "id": "js_curriculo_form_clearerror",
@@ -1164,7 +1164,7 @@
       "label": "markError()",
       "file_type": "code",
       "source_file": "js/curriculo-form.js",
-      "source_location": "L7",
+      "source_location": "L20",
       "_callable": true,
       "_origin": "ast",
       "id": "js_curriculo_form_markerror",
@@ -1212,7 +1212,7 @@
       "label": "skti_get_meta_description()",
       "file_type": "code",
       "source_file": "functions.php",
-      "source_location": "L97",
+      "source_location": "L98",
       "_callable": true,
       "_origin": "ast",
       "id": "functions_skti_get_meta_description",
@@ -1224,7 +1224,7 @@
       "label": "skti_resource_hints()",
       "file_type": "code",
       "source_file": "functions.php",
-      "source_location": "L83",
+      "source_location": "L84",
       "_callable": true,
       "_origin": "ast",
       "id": "functions_skti_resource_hints",
@@ -1236,7 +1236,7 @@
       "label": "skti_schema_json_ld()",
       "file_type": "code",
       "source_file": "functions.php",
-      "source_location": "L147",
+      "source_location": "L148",
       "_callable": true,
       "_origin": "ast",
       "id": "functions_skti_schema_json_ld",
@@ -1248,7 +1248,7 @@
       "label": "skti_seo_head()",
       "file_type": "code",
       "source_file": "functions.php",
-      "source_location": "L113",
+      "source_location": "L114",
       "_callable": true,
       "_origin": "ast",
       "id": "functions_skti_seo_head",
@@ -1641,6 +1641,17 @@
       "community": 42,
       "community_name": "curriculo-form.js",
       "norm_label": "form"
+    },
+    {
+      "label": "phoneMask",
+      "file_type": "code",
+      "source_file": "js/curriculo-form.js",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "js_curriculo_form_phonemask",
+      "community": 42,
+      "community_name": "curriculo-form.js",
+      "norm_label": "phonemask"
     },
     {
       "label": "secondary-header.js",
@@ -2497,7 +2508,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "functions.php",
-      "source_location": "L114",
+      "source_location": "L115",
       "weight": 1.0,
       "_origin": "ast",
       "source": "functions_skti_seo_head",
@@ -2509,7 +2520,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "js/curriculo-form.js",
-      "source_location": "L22",
+      "source_location": "L35",
       "weight": 1.0,
       "_origin": "ast",
       "source": "js_curriculo_form_checkinputs",
@@ -2521,7 +2532,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "js/curriculo-form.js",
-      "source_location": "L27",
+      "source_location": "L40",
       "weight": 1.0,
       "_origin": "ast",
       "source": "js_curriculo_form_checkinputs",
@@ -4320,7 +4331,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "functions.php",
-      "source_location": "L113",
+      "source_location": "L114",
       "weight": 1.0,
       "_origin": "ast",
       "source": "functions",
@@ -4342,7 +4353,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "functions.php",
-      "source_location": "L147",
+      "source_location": "L148",
       "weight": 1.0,
       "_origin": "ast",
       "source": "functions",
@@ -4364,7 +4375,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "functions.php",
-      "source_location": "L83",
+      "source_location": "L84",
       "weight": 1.0,
       "_origin": "ast",
       "source": "functions",
@@ -4375,7 +4386,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "functions.php",
-      "source_location": "L97",
+      "source_location": "L98",
       "weight": 1.0,
       "_origin": "ast",
       "source": "functions",
@@ -4452,28 +4463,6 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "js/curriculo-form.js",
-      "source_location": "L12",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "js_curriculo_form",
-      "target": "js_curriculo_form_clearerror",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "js/curriculo-form.js",
-      "source_location": "L17",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "js_curriculo_form",
-      "target": "js_curriculo_form_checkinputs",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "js/curriculo-form.js",
       "source_location": "L2",
       "weight": 1.0,
       "_origin": "ast",
@@ -4485,11 +4474,44 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "js/curriculo-form.js",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "js_curriculo_form",
+      "target": "js_curriculo_form_markerror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js/curriculo-form.js",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "js_curriculo_form",
+      "target": "js_curriculo_form_clearerror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js/curriculo-form.js",
       "source_location": "L3",
       "weight": 1.0,
       "_origin": "ast",
       "source": "js_curriculo_form",
       "target": "js_curriculo_form_fileinput",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js/curriculo-form.js",
+      "source_location": "L30",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "js_curriculo_form",
+      "target": "js_curriculo_form_checkinputs",
       "confidence_score": 1.0
     },
     {
@@ -4511,7 +4533,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "js_curriculo_form",
-      "target": "js_curriculo_form_markerror",
+      "target": "js_curriculo_form_phonemask",
       "confidence_score": 1.0
     },
     {
@@ -6841,5 +6863,5 @@
       "source_file": "assets/servicesimg/service-backup.png"
     }
   ],
-  "built_at_commit": "ae823a3b930927124a4caea45921d54161e96113"
+  "built_at_commit": "ff03c11a068ab31e12657ca0b170d4df9db8d108"
 }

@@ -1,362 +1,362 @@
 {
   "404.php": {
     "mtime": 1786633288.0,
-    "seen": 1787079778.2441328,
+    "seen": 1787082879.2748618,
     "ast_hash": "fab58fec8a7bcdd0101cbb1d9a3dbeb5",
     "semantic_hash": "fab58fec8a7bcdd0101cbb1d9a3dbeb5"
   },
   "footer.php": {
     "mtime": 1786633298.0,
-    "seen": 1787079778.2441444,
+    "seen": 1787082879.27487,
     "ast_hash": "014361b9628a6caa1db7c16fa03c259a",
     "semantic_hash": "014361b9628a6caa1db7c16fa03c259a"
   },
   "functions.php": {
-    "mtime": 1787065596.156738,
-    "seen": 1787079778.2441509,
-    "ast_hash": "3e8c35be594ac01fa6022314169045bc",
+    "mtime": 1787082864.0364106,
+    "seen": 1787082879.2748742,
+    "ast_hash": "f404e14af494bbd08d5bf915ae4db786",
     "semantic_hash": ""
   },
   "header-new.php": {
     "mtime": 1786633298.0,
-    "seen": 1787079778.2441554,
+    "seen": 1787082879.2748768,
     "ast_hash": "9388eea5855a897db10a34975ad60ad9",
     "semantic_hash": "9388eea5855a897db10a34975ad60ad9"
   },
   "header.php": {
     "mtime": 1786633296.0,
-    "seen": 1787079778.2441592,
+    "seen": 1787082879.2748792,
     "ast_hash": "fd133c71e5d05353f07ecf6253200f0d",
     "semantic_hash": "fd133c71e5d05353f07ecf6253200f0d"
   },
   "home.php": {
     "mtime": 1786632168.0,
-    "seen": 1787079778.244163,
+    "seen": 1787082879.2748814,
     "ast_hash": "2caf5cdeac686025e820a21755a9ec91",
     "semantic_hash": "2caf5cdeac686025e820a21755a9ec91"
   },
   "index.php": {
     "mtime": 1786632168.0,
-    "seen": 1787079778.2441666,
+    "seen": 1787082879.2748833,
     "ast_hash": "796ac9b5453fb4456de28f88f0fc83b1",
     "semantic_hash": "796ac9b5453fb4456de28f88f0fc83b1"
   },
   "js/animation.js": {
     "mtime": 1786611094.0,
-    "seen": 1787079778.24417,
+    "seen": 1787082879.2748854,
     "ast_hash": "249d36c93ca88c2ead720a952b7e5add",
     "semantic_hash": "249d36c93ca88c2ead720a952b7e5add"
   },
   "js/forms.js": {
-    "mtime": 1787055045.2149842,
-    "seen": 1787079778.244177,
-    "ast_hash": "c026439be46ff1cc30eaf2d3cbea9bdc",
-    "semantic_hash": "c026439be46ff1cc30eaf2d3cbea9bdc"
+    "mtime": 1787082394.5964797,
+    "seen": 1787082879.2748895,
+    "ast_hash": "07753fcd643f7f4372e9bab10a52e28b",
+    "semantic_hash": ""
   },
   "js/resizeBanner.js": {
     "mtime": 1786611094.0,
-    "seen": 1787079778.244181,
+    "seen": 1787082879.2748916,
     "ast_hash": "542a64b46b8d9abfb2025d44e0f2ea06",
     "semantic_hash": "542a64b46b8d9abfb2025d44e0f2ea06"
   },
   "js/scripts.js": {
     "mtime": 1786611094.0,
-    "seen": 1787079778.2441845,
+    "seen": 1787082879.2748933,
     "ast_hash": "c0d59f8e9b400ae2391742fffb8586a2",
     "semantic_hash": "c0d59f8e9b400ae2391742fffb8586a2"
   },
   "js/secondary-header.js": {
     "mtime": 1786611094.0,
-    "seen": 1787079778.2441876,
+    "seen": 1787082879.2748952,
     "ast_hash": "cd0d031b77704e9047ed4e340979a4ce",
     "semantic_hash": "cd0d031b77704e9047ed4e340979a4ce"
   },
   "js/swiper-bundle.min.js": {
     "mtime": 1786611094.0,
-    "seen": 1787079778.244191,
+    "seen": 1787082879.274897,
     "ast_hash": "24fd8f796609d79fcb7b6e5ae754433b",
     "semantic_hash": "24fd8f796609d79fcb7b6e5ae754433b"
   },
   "js/swiper-init.js": {
     "mtime": 1786696600.0,
-    "seen": 1787079778.2441943,
+    "seen": 1787082879.2748992,
     "ast_hash": "79700bc3e4ffd9212526b385e924c85c",
     "semantic_hash": "79700bc3e4ffd9212526b385e924c85c"
   },
   "pagina-inicio.php": {
     "mtime": 1787058666.7621064,
-    "seen": 1787079778.2441978,
+    "seen": 1787082879.2749012,
     "ast_hash": "c36a8c76bfc6e1458859a5978f227a9f",
     "semantic_hash": "c36a8c76bfc6e1458859a5978f227a9f"
   },
   "politica-de-privacidade.php": {
     "mtime": 1786633292.0,
-    "seen": 1787079778.2442014,
+    "seen": 1787082879.2749028,
     "ast_hash": "5e39a786755d98f751845df74545a1a5",
     "semantic_hash": "5e39a786755d98f751845df74545a1a5"
   },
   "trabalhe-conosco.php": {
     "mtime": 1787079695.0026112,
-    "seen": 1787079778.2442048,
+    "seen": 1787082879.2749047,
     "ast_hash": "1b0dec3d1c9057c91182ff7ea877f4ae",
     "semantic_hash": ""
   },
   "assets/certificates/Certifica\u00e7\u00e3o ISO 27001 2022.pdf": {
     "mtime": 1786611998.0,
-    "seen": 1787079778.2442105,
+    "seen": 1787082879.274908,
     "ast_hash": "0c6ac70f7c22b848ea74d02cbfade71a",
     "semantic_hash": "0c6ac70f7c22b848ea74d02cbfade71a"
   },
   "assets/certificates/Certifica\u00e7\u00e3o ISO 27701 2019.pdf": {
     "mtime": 1786611998.0,
-    "seen": 1787079778.2442155,
+    "seen": 1787082879.274911,
     "ast_hash": "705d8543b8159230e7a6ac70db3616f5",
     "semantic_hash": "705d8543b8159230e7a6ac70db3616f5"
   },
   "assets/certificates/Certifica\u00e7\u00e3o ISO 37001 2016.pdf": {
     "mtime": 1786611998.0,
-    "seen": 1787079778.2442203,
+    "seen": 1787082879.274913,
     "ast_hash": "1f20ef06f0467aec3ecb2918355cfdc1",
     "semantic_hash": "1f20ef06f0467aec3ecb2918355cfdc1"
   },
   "assets/certificates/Certifica\u00e7\u00e3o ISO 37301 2021.pdf": {
     "mtime": 1786611998.0,
-    "seen": 1787079778.2442248,
+    "seen": 1787082879.2749152,
     "ast_hash": "d1988aae405fd81748bfd8bd223f9f39",
     "semantic_hash": "d1988aae405fd81748bfd8bd223f9f39"
   },
   "assets/certificates/certifi.pdf": {
     "mtime": 1786611998.0,
-    "seen": 1787079778.2442284,
+    "seen": 1787082879.2749174,
     "ast_hash": "db09c1fa5d70cc4d338733f3a9cb94a3",
     "semantic_hash": "db09c1fa5d70cc4d338733f3a9cb94a3"
   },
   "assets/Design-sem-nome-3-300x127.png": {
     "mtime": 1786611998.0,
-    "seen": 1787079778.2442317,
+    "seen": 1787082879.2749188,
     "ast_hash": "09cc5860182a6e5572d6070eedb5a566",
     "semantic_hash": "09cc5860182a6e5572d6070eedb5a566"
   },
   "assets/Erro.png": {
     "mtime": 1786611998.0,
-    "seen": 1787079778.2442358,
+    "seen": 1787082879.2749207,
     "ast_hash": "7889cbc5efc4003b205d8590083dad32",
     "semantic_hash": "7889cbc5efc4003b205d8590083dad32"
   },
   "assets/background-address.png": {
     "mtime": 1786611998.0,
-    "seen": 1787079778.2442396,
+    "seen": 1787082879.2749228,
     "ast_hash": "b63ce8d44fa2eb99fe2be6c07436647f",
     "semantic_hash": "b63ce8d44fa2eb99fe2be6c07436647f"
   },
   "assets/background-partner.png": {
     "mtime": 1786611998.0,
-    "seen": 1787079778.2442436,
+    "seen": 1787082879.2749245,
     "ast_hash": "f02432a56c9813bb86b39725c434d2e2",
     "semantic_hash": "f02432a56c9813bb86b39725c434d2e2"
   },
   "assets/banner-veeam.png": {
     "mtime": 1786611998.0,
-    "seen": 1787079778.244248,
+    "seen": 1787082879.2749267,
     "ast_hash": "fbc3fe7735c6c03b6c35b86333b7a7c0",
     "semantic_hash": "fbc3fe7735c6c03b6c35b86333b7a7c0"
   },
   "assets/banners/banner-backup.png": {
     "mtime": 1786611998.0,
-    "seen": 1787079778.2442513,
+    "seen": 1787082879.2749283,
     "ast_hash": "bd165e44d4a56a0a0d21ba1c575db8ae",
     "semantic_hash": "bd165e44d4a56a0a0d21ba1c575db8ae"
   },
   "assets/banners/banner-blockbit.jpeg": {
     "mtime": 1786611998.0,
-    "seen": 1787079778.244255,
+    "seen": 1787082879.27493,
     "ast_hash": "628d4c0eef3850baeb7fd3c357eb117d",
     "semantic_hash": "628d4c0eef3850baeb7fd3c357eb117d"
   },
   "assets/banners/banner-cisco.jpeg": {
     "mtime": 1786611998.0,
-    "seen": 1787079778.2442586,
+    "seen": 1787082879.2749317,
     "ast_hash": "2b7f2a8348b959dfc65f7a4a8704e885",
     "semantic_hash": "2b7f2a8348b959dfc65f7a4a8704e885"
   },
   "assets/banners/banner-fortinet.jpeg": {
     "mtime": 1786611998.0,
-    "seen": 1787079778.244262,
+    "seen": 1787082879.2749336,
     "ast_hash": "f5760f48b9a696e88a126d98c6687636",
     "semantic_hash": "f5760f48b9a696e88a126d98c6687636"
   },
   "assets/banners/banner-microsoft.jpeg": {
     "mtime": 1786611998.0,
-    "seen": 1787079778.2442656,
+    "seen": 1787082879.2749352,
     "ast_hash": "43238aadeedfe42d0995d8182e65893c",
     "semantic_hash": "43238aadeedfe42d0995d8182e65893c"
   },
   "assets/banners/banner-veeam.jpeg": {
     "mtime": 1786611998.0,
-    "seen": 1787079778.2442691,
+    "seen": 1787082879.2749372,
     "ast_hash": "da826209aa45e58a2e0e76b01caa6ced",
     "semantic_hash": "da826209aa45e58a2e0e76b01caa6ced"
   },
   "assets/banners/banner-vmware.jpeg": {
     "mtime": 1786611998.0,
-    "seen": 1787079778.2442727,
+    "seen": 1787082879.2749386,
     "ast_hash": "9ab466d9cb51af7cfbc540ca161ea4c8",
     "semantic_hash": "9ab466d9cb51af7cfbc540ca161ea4c8"
   },
   "assets/carouselimg/carrossel-blockbit.png": {
     "mtime": 1786611998.0,
-    "seen": 1787079778.2442768,
+    "seen": 1787082879.2749405,
     "ast_hash": "e1cdbfff607451b90ecd27fb86822a9a",
     "semantic_hash": "e1cdbfff607451b90ecd27fb86822a9a"
   },
   "assets/carouselimg/carrossel-cisco.png": {
     "mtime": 1786611998.0,
-    "seen": 1787079778.2442806,
+    "seen": 1787082879.2749422,
     "ast_hash": "d810431c5df6f9057878340e2881fad6",
     "semantic_hash": "d810431c5df6f9057878340e2881fad6"
   },
   "assets/carouselimg/carrossel-fortinet.png": {
     "mtime": 1786611998.0,
-    "seen": 1787079778.2442842,
+    "seen": 1787082879.274944,
     "ast_hash": "364b03662578768cfac1679fb7c2fedf",
     "semantic_hash": "364b03662578768cfac1679fb7c2fedf"
   },
   "assets/carouselimg/carrossel-microsoft.png": {
     "mtime": 1786611998.0,
-    "seen": 1787079778.2442882,
+    "seen": 1787082879.2749457,
     "ast_hash": "42fa6f9c24c9201de3708abf5574b90b",
     "semantic_hash": "42fa6f9c24c9201de3708abf5574b90b"
   },
   "assets/carouselimg/carrossel-veeam.png": {
     "mtime": 1786611998.0,
-    "seen": 1787079778.244292,
+    "seen": 1787082879.2749476,
     "ast_hash": "0eabbeac25ba6b0afb0e61f5ff705e23",
     "semantic_hash": "0eabbeac25ba6b0afb0e61f5ff705e23"
   },
   "assets/carouselimg/carrossel-vmware.png": {
     "mtime": 1786611998.0,
-    "seen": 1787079778.2442956,
+    "seen": 1787082879.2749496,
     "ast_hash": "668f2d75aed2d60931b741671a133745",
     "semantic_hash": "668f2d75aed2d60931b741671a133745"
   },
   "assets/certificates/ant-cert.jpg": {
     "mtime": 1786611998.0,
-    "seen": 1787079778.2442994,
+    "seen": 1787082879.2749515,
     "ast_hash": "3776109690d08f03cecb63bbdec69595",
     "semantic_hash": "3776109690d08f03cecb63bbdec69595"
   },
   "assets/certificates/certifi_selo.png": {
     "mtime": 1786611998.0,
-    "seen": 1787079778.2443035,
+    "seen": 1787082879.2749538,
     "ast_hash": "cda6d7983302eb8904d421725f4be47f",
     "semantic_hash": "cda6d7983302eb8904d421725f4be47f"
   },
   "assets/certificates/informatio-cert.png": {
     "mtime": 1786611998.0,
-    "seen": 1787079778.2443073,
+    "seen": 1787082879.2749555,
     "ast_hash": "340e338640ce5e4e0fa74addfe6c0a13",
     "semantic_hash": "340e338640ce5e4e0fa74addfe6c0a13"
   },
   "assets/certificates/privacy-cert.png": {
     "mtime": 1786611998.0,
-    "seen": 1787079778.2443116,
+    "seen": 1787082879.2749574,
     "ast_hash": "7cd981e2a3d1911069d726f6fe779cc2",
     "semantic_hash": "7cd981e2a3d1911069d726f6fe779cc2"
   },
   "assets/certificates/risk-manager.png": {
     "mtime": 1786611998.0,
-    "seen": 1787079778.2443154,
+    "seen": 1787082879.274959,
     "ast_hash": "458b8802946779aee6e8b901eb65ede5",
     "semantic_hash": "458b8802946779aee6e8b901eb65ede5"
   },
   "assets/error.png": {
     "mtime": 1786611998.0,
-    "seen": 1787079778.2443194,
+    "seen": 1787082879.274961,
     "ast_hash": "5b722c3e1e245f817c5922c6dbc963a8",
     "semantic_hash": "5b722c3e1e245f817c5922c6dbc963a8"
   },
   "assets/logo-address.png": {
     "mtime": 1786611998.0,
-    "seen": 1787079778.2443233,
+    "seen": 1787082879.274963,
     "ast_hash": "1d0d9edfbd9e88b1529dc25cc89a5904",
     "semantic_hash": "1d0d9edfbd9e88b1529dc25cc89a5904"
   },
   "assets/logo.png": {
     "mtime": 1786611998.0,
-    "seen": 1787079778.2443268,
+    "seen": 1787082879.2749648,
     "ast_hash": "267f649394cc76745af9d06188cf695f",
     "semantic_hash": "267f649394cc76745af9d06188cf695f"
   },
   "assets/record-circle-fill.svg": {
     "mtime": 1786611094.0,
-    "seen": 1787079778.2443306,
+    "seen": 1787082879.2749665,
     "ast_hash": "a455bab631c529a3eb1df2f1bbfa452a",
     "semantic_hash": "a455bab631c529a3eb1df2f1bbfa452a"
   },
   "assets/servicesimg/service-backup.png": {
     "mtime": 1786611998.0,
-    "seen": 1787079778.2443347,
+    "seen": 1787082879.2749684,
     "ast_hash": "c5967044e75bd3b6aeb6e8568ba97800",
     "semantic_hash": "c5967044e75bd3b6aeb6e8568ba97800"
   },
   "assets/servicesimg/service-cable.png": {
     "mtime": 1786611998.0,
-    "seen": 1787079778.2443385,
+    "seen": 1787082879.27497,
     "ast_hash": "9bffde18e69f5bcda24174150fef681e",
     "semantic_hash": "9bffde18e69f5bcda24174150fef681e"
   },
   "assets/servicesimg/service-helpdesk.png": {
     "mtime": 1786611998.0,
-    "seen": 1787079778.2443426,
+    "seen": 1787082879.274972,
     "ast_hash": "e1594c32926b92f3ee024e71efcab01d",
     "semantic_hash": "e1594c32926b92f3ee024e71efcab01d"
   },
   "assets/servicesimg/service-infra.png": {
     "mtime": 1786611998.0,
-    "seen": 1787079778.2443464,
+    "seen": 1787082879.2749736,
     "ast_hash": "d88792d0ed48fa155e64123d98d103de",
     "semantic_hash": "d88792d0ed48fa155e64123d98d103de"
   },
   "assets/servicesimg/service-lgpd.png": {
     "mtime": 1786611998.0,
-    "seen": 1787079778.24435,
+    "seen": 1787082879.2749753,
     "ast_hash": "2c01b0b01997d7804e526fac8b94ca44",
     "semantic_hash": "2c01b0b01997d7804e526fac8b94ca44"
   },
   "assets/servicesimg/service-monitoring.png": {
     "mtime": 1786611998.0,
-    "seen": 1787079778.2443538,
+    "seen": 1787082879.274977,
     "ast_hash": "8fa1ae166062726d90b0e4781e3b56dd",
     "semantic_hash": "8fa1ae166062726d90b0e4781e3b56dd"
   },
   "assets/servicesimg/service-network.png": {
     "mtime": 1786611998.0,
-    "seen": 1787079778.2443578,
+    "seen": 1787082879.2749789,
     "ast_hash": "683952c13c0e093169080d74ce69a114",
     "semantic_hash": "683952c13c0e093169080d74ce69a114"
   },
   "assets/servicesimg/service-security.png": {
     "mtime": 1786611998.0,
-    "seen": 1787079778.2443614,
+    "seen": 1787082879.2749805,
     "ast_hash": "47c74832e195044ca5278c176ff2c08f",
     "semantic_hash": "47c74832e195044ca5278c176ff2c08f"
   },
   "assets/servicesimg/service-voip.png": {
     "mtime": 1786611998.0,
-    "seen": 1787079778.2443655,
+    "seen": 1787082879.2749825,
     "ast_hash": "d908a472c5fd4b190f1d947ec56f8389",
     "semantic_hash": "d908a472c5fd4b190f1d947ec56f8389"
   },
   "assets/banners/banner-home.mp4": {
     "mtime": 1786611998.0,
-    "seen": 1787079778.2443693,
+    "seen": 1787082879.2749844,
     "ast_hash": "d2badd959be39b3e321c27fb4a4687d4",
     "semantic_hash": "d2badd959be39b3e321c27fb4a4687d4"
   },
   "js/curriculo-form.js": {
-    "mtime": 1787079727.6984227,
-    "seen": 1787079778.2441735,
-    "ast_hash": "d21e6ed770227acfbae21194a3d208ab",
+    "mtime": 1787082870.0345182,
+    "seen": 1787082879.2748873,
+    "ast_hash": "37231254618632807f1e9dbf0c092da0",
     "semantic_hash": ""
   }
 }

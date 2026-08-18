@@ -61,7 +61,8 @@ function skti_enqueue_scripts() {
 	// Form "trabalhe conosco" (envio de currículo em PDF).
 	if ( is_page_template( 'trabalhe-conosco.php' ) ) {
 		wp_enqueue_script( 'skti-sweetalert2', 'https://cdn.jsdelivr.net/npm/sweetalert2@11', array(), null, true );
-		wp_enqueue_script( 'skti-curriculo-forms', get_theme_file_uri( 'js/curriculo-form.js' ), array( 'skti-sweetalert2' ), $version, true );
+		wp_enqueue_script( 'skti-imask', 'https://cdn.jsdelivr.net/npm/imask@7/dist/imask.min.js', array(), null, true );
+		wp_enqueue_script( 'skti-curriculo-forms', get_theme_file_uri( 'js/curriculo-form.js' ), array( 'skti-sweetalert2', 'skti-imask' ), $version, true );
 	}
 
 	// Pages using header-new.php.
@@ -70,7 +71,7 @@ function skti_enqueue_scripts() {
 	}
 
 	// Load all theme scripts with defer.
-	$defer_handles = array( 'skti-scripts', 'skti-swiper', 'skti-swiper-init', 'skti-animation', 'skti-sweetalert2', 'skti-forms', 'skti-curriculo-forms', 'skti-secondary-header' );
+	$defer_handles = array( 'skti-scripts', 'skti-swiper', 'skti-swiper-init', 'skti-animation', 'skti-sweetalert2', 'skti-imask', 'skti-forms', 'skti-curriculo-forms', 'skti-secondary-header' );
 	foreach ( $defer_handles as $handle ) {
 		wp_script_add_data( $handle, 'defer', true );
 	}

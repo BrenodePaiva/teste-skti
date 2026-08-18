@@ -1,16 +1,16 @@
 # Graph Report - skti-theme-test  (2026-08-18)
 
 ## Corpus Check
-- 18 files · ~67,579 words
+- 18 files · ~67,845 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 190 nodes · 365 edges · 43 communities (24 shown, 19 thin omitted)
+- 191 nodes · 366 edges · 43 communities (24 shown, 19 thin omitted)
 - Extraction: 74% EXTRACTED · 25% INFERRED · 1% AMBIGUOUS · INFERRED: 90 edges (avg confidence: 0.57)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `ae823a3b`
+- Built from commit: `ff03c11a`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -88,16 +88,16 @@
 ## Communities (43 total, 19 thin omitted)
 
 ### Community 0 - "l"
-Cohesion: 0.27
-Nodes (31): addEventListener(), C(), p(), u(), clearTimeout(), d(), e(), f() (+23 more)
+Cohesion: 0.33
+Nodes (28): addEventListener(), B(), C(), p(), u(), d(), e(), f() (+20 more)
 
 ### Community 1 - "v"
-Cohesion: 0.14
-Nodes (5): emit(), J(), onAny(), q(), v()
+Cohesion: 0.12
+Nodes (9): emit(), g(), J(), K(), onAny(), q(), setTimeout(), v() (+1 more)
 
 ### Community 2 - "swiper-bundle.min.js"
-Cohesion: 0.11
-Nodes (9): a(), B(), blur(), cancelAnimationFrame(), ie(), removeEventListener(), set(), setTimeout() (+1 more)
+Cohesion: 0.10
+Nodes (8): a(), blur(), cancelAnimationFrame(), clearTimeout(), ie(), on(), once(), set()
 
 ### Community 3 - "scripts.js"
 Cohesion: 0.15
@@ -140,8 +140,8 @@ Cohesion: 0.67
 Nodes (3): Untitled Design Logo or Badge (300x127), Site Logo (SKTI), Address Section Logo (SKTI)
 
 ### Community 42 - "curriculo-form.js"
-Cohesion: 0.32
-Nodes (7): button, checkInputs(), clearError(), fileInput, fileName, form, markError()
+Cohesion: 0.28
+Nodes (8): button, checkInputs(), clearError(), fileInput, fileName, form, markError(), phoneMask
 
 ## Ambiguous Edges - Review These
 - `ISO 37301 2021 Certificate` → `STRAICK CENTRO (certification body or certified party, unreadable)`  [AMBIGUOUS]
@@ -154,7 +154,7 @@ Nodes (7): button, checkInputs(), clearError(), fileInput, fileName, form, markE
   assets/certificates/certifi.pdf · relation: conceptually_related_to
 
 ## Knowledge Gaps
-- **63 isolated node(s):** `elementsUp`, `elementsLeft`, `elementsSlider`, `elementsHidden`, `myObserver` (+58 more)
+- **64 isolated node(s):** `elementsUp`, `elementsLeft`, `elementsSlider`, `elementsHidden`, `myObserver` (+59 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **19 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -170,7 +170,7 @@ _Questions this graph is uniquely positioned to answer:_
 - **What is the exact relationship between `Certifi Seal/Logo` and `ISO 27001 2022 Certificate`?**
   _Edge tagged AMBIGUOUS (relation: conceptually_related_to) - confidence is low._
 - **Why does `v()` connect `v` to `l`, `swiper-bundle.min.js`?**
-  _High betweenness centrality (0.046) - this node is a cross-community bridge._
+  _High betweenness centrality (0.045) - this node is a cross-community bridge._
 - **Why does `emit()` connect `v` to `l`, `swiper-bundle.min.js`?**
   _High betweenness centrality (0.011) - this node is a cross-community bridge._
 - **Why does `l()` connect `l` to `v`, `swiper-bundle.min.js`?**
