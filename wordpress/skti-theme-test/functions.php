@@ -52,10 +52,16 @@ function skti_enqueue_scripts() {
 		wp_enqueue_script( 'skti-animation', get_theme_file_uri( 'js/animation.js' ), array(), $version, true );
 	}
 
-	// Forms (homepage + "trabalhe conosco").
-	if ( is_front_page() || is_page_template( 'pagina-inicio.php' ) || is_page_template( 'trabalhe-conosco.php' ) ) {
+	// Forms (homepage).
+	if ( is_front_page() || is_page_template( 'pagina-inicio.php' ) ) {
 		wp_enqueue_script( 'skti-sweetalert2', 'https://cdn.jsdelivr.net/npm/sweetalert2@11', array(), null, true );
 		wp_enqueue_script( 'skti-forms', get_theme_file_uri( 'js/forms.js' ), array( 'skti-sweetalert2' ), $version, true );
+	}
+
+	// Form "trabalhe conosco" (envio de currículo em PDF).
+	if ( is_page_template( 'trabalhe-conosco.php' ) ) {
+		wp_enqueue_script( 'skti-sweetalert2', 'https://cdn.jsdelivr.net/npm/sweetalert2@11', array(), null, true );
+		wp_enqueue_script( 'skti-curriculo-forms', get_theme_file_uri( 'js/curriculo-form.js' ), array( 'skti-sweetalert2' ), $version, true );
 	}
 
 	// Pages using header-new.php.
@@ -64,7 +70,7 @@ function skti_enqueue_scripts() {
 	}
 
 	// Load all theme scripts with defer.
-	$defer_handles = array( 'skti-scripts', 'skti-swiper', 'skti-swiper-init', 'skti-animation', 'skti-sweetalert2', 'skti-forms', 'skti-secondary-header' );
+	$defer_handles = array( 'skti-scripts', 'skti-swiper', 'skti-swiper-init', 'skti-animation', 'skti-sweetalert2', 'skti-forms', 'skti-curriculo-forms', 'skti-secondary-header' );
 	foreach ( $defer_handles as $handle ) {
 		wp_script_add_data( $handle, 'defer', true );
 	}

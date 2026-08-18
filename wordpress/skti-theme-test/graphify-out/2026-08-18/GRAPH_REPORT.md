@@ -1,7 +1,7 @@
 # Graph Report - skti-theme-test  (2026-08-18)
 
 ## Corpus Check
-- 18 files · ~67,579 words
+- 18 files · ~67,508 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary

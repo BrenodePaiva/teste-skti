@@ -12,16 +12,16 @@ get_header('new');
         <div class="contact-content" style="margin-top: 60px;">
             <div class="contact-form">
                 <h2>Trabalhe Conosco</h2>
-                <form id="form">
-                    <input type="hidden" name="access_key" value="c9cf2954-68ba-4c12-a1b9-cd8cadf1451b"/>
+                <form id="form-curriculum">
+                    <!-- <input type="hidden" name="access_key" value="c9cf2954-68ba-4c12-a1b9-cd8cadf1451b"/>
                     <input type="hidden" name="replyto" value="sktisolucoes@gmail.com"/>
                     <input type="hidden" name="from_name" value="Skti Site Currículo"/>
-                    <input type="hidden" name="subject" value="Um currículo foi enviado"/>
+                    <input type="hidden" name="subject" value="Um currículo foi enviado"/> -->
                     <!-- <input type="hidden" name="replyto" value="outsystems.suporte.teste@gmail.com"/> -->
 
                     <div class="input-box">
                         <div class="input-field field">
-                            <input type="text" name="nome" placeholder="Nome" class="item" id="name"/>
+                            <input type="text" name="name" placeholder="Nome" class="item" id="name"/>
                             <div class="error-txt">Nome não pode ficar em branco</div>
                         </div>
                     </div>
@@ -35,15 +35,20 @@ get_header('new');
 
                     <div class="input-box">
                         <div class="input-field field">
-                            <input type="text" name="telefone" placeholder="Telefone" class="item" id="phone"/>
+                            <input type="text" name="phone" placeholder="Telefone" class="item" id="phone"/>
                             <div class="error-txt">Telefone não pode ficar em branco</div>
                         </div>
                     </div>
 
                     
-                    <div class="textarea-field field">
-                        <textarea cols="30" rows="10" name="curriculo" placeholder="Currículo" class="item" id="message"></textarea>
-                        <div class="error-txt">Currículo não pode ficar em branco</div>
+                    <div class="input-field field">
+                        <input type="file" name="resume" id="curriculo-file" class="item file-input" accept=".pdf,application/pdf"/>
+                        <label class="file-field" for="curriculo-file">
+                            <i class="bi bi-paperclip"></i>
+                            <span class="file-placeholder">Anexar currículo (PDF)</span>
+                            <span class="file-name" id="fileName">Nenhum arquivo selecionado</span>
+                        </label>
+                        <div class="error-txt">Anexe seu currículo em PDF</div>
                     </div> 
 
                     <button type="submit" id="button">Enviar</button>

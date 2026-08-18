@@ -14,7 +14,7 @@ There is no `package.json`, build step, linter, typecheck, or test suite for eit
 
 - Plain PHP/CSS/JS; every file guards with `if ( ! defined( 'ABSPATH' ) ) { exit; }` — preserve that.
 - All functions in `functions.php` are prefixed `skti_`; new code must follow.
-- Theme version lives only in `style.css` (`Version: 2.4.3`). Bump it when you change enqueued assets — `SKTI_THEME_VERSION` is the cache-buster for all styles/scripts.
+- Theme version lives only in `style.css` (`Version: 2.4.4`). Bump it when you change enqueued assets — `SKTI_THEME_VERSION` is the cache-buster for all styles/scripts.
 - **Page-template driven.** `pagina-inicio.php` (`Template name: inicio`), `politica-de-privacidade.php` (`privacidade`), `trabalhe-conosco.php` (`curriculo`) are assigned to pages in the WP admin. `home.php` and `index.php` are empty stubs — the real homepage markup lives inline in `pagina-inicio.php`, not the loop.
 - Headers: `get_header()` → `header.php` (homepage); `get_header('new')` → `header-new.php` (used by 404.php, privacidade, curriculo).
 - `functions.php` `skti_enqueue_scripts()` controls asset loading:
