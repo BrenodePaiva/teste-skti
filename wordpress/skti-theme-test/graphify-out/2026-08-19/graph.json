@@ -1140,7 +1140,7 @@
       "label": "checkInputs()",
       "file_type": "code",
       "source_file": "js/curriculo-form.js",
-      "source_location": "L27",
+      "source_location": "L30",
       "_callable": true,
       "_origin": "ast",
       "id": "js_curriculo_form_checkinputs",
@@ -1152,7 +1152,7 @@
       "label": "clearError()",
       "file_type": "code",
       "source_file": "js/curriculo-form.js",
-      "source_location": "L22",
+      "source_location": "L25",
       "_callable": true,
       "_origin": "ast",
       "id": "js_curriculo_form_clearerror",
@@ -1164,7 +1164,7 @@
       "label": "markError()",
       "file_type": "code",
       "source_file": "js/curriculo-form.js",
-      "source_location": "L17",
+      "source_location": "L20",
       "_callable": true,
       "_origin": "ast",
       "id": "js_curriculo_form_markerror",
@@ -2520,7 +2520,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "js/curriculo-form.js",
-      "source_location": "L32",
+      "source_location": "L35",
       "weight": 1.0,
       "_origin": "ast",
       "source": "js_curriculo_form_checkinputs",
@@ -2532,7 +2532,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "js/curriculo-form.js",
-      "source_location": "L37",
+      "source_location": "L40",
       "weight": 1.0,
       "_origin": "ast",
       "source": "js_curriculo_form_checkinputs",
@@ -4463,17 +4463,6 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "js/curriculo-form.js",
-      "source_location": "L17",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "js_curriculo_form",
-      "target": "js_curriculo_form_markerror",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "js/curriculo-form.js",
       "source_location": "L2",
       "weight": 1.0,
       "_origin": "ast",
@@ -4485,22 +4474,22 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "js/curriculo-form.js",
-      "source_location": "L22",
+      "source_location": "L20",
       "weight": 1.0,
       "_origin": "ast",
       "source": "js_curriculo_form",
-      "target": "js_curriculo_form_clearerror",
+      "target": "js_curriculo_form_markerror",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "js/curriculo-form.js",
-      "source_location": "L27",
+      "source_location": "L25",
       "weight": 1.0,
       "_origin": "ast",
       "source": "js_curriculo_form",
-      "target": "js_curriculo_form_checkinputs",
+      "target": "js_curriculo_form_clearerror",
       "confidence_score": 1.0
     },
     {
@@ -4512,6 +4501,17 @@
       "_origin": "ast",
       "source": "js_curriculo_form",
       "target": "js_curriculo_form_fileinput",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js/curriculo-form.js",
+      "source_location": "L30",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "js_curriculo_form",
+      "target": "js_curriculo_form_checkinputs",
       "confidence_score": 1.0
     },
     {
@@ -6863,5 +6863,5 @@
       "source_file": "assets/servicesimg/service-backup.png"
     }
   ],
-  "built_at_commit": "d21087430b601d876cadc4fe282abf261176ab84"
+  "built_at_commit": "ff03c11a068ab31e12657ca0b170d4df9db8d108"
 }

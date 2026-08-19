@@ -73,6 +73,7 @@ form.addEventListener("submit", function (e) {
           confirmButtonText: "Ok",
         });
       } else {
+        if (Swal.isVisible()) return;
         let message = "Alguma coisa deu errado, tente novamente mais tarde";
         let details = "";
         try {
@@ -116,6 +117,7 @@ form.addEventListener("submit", function (e) {
     })
     .catch((error) => {
       console.log(error);
+      if (Swal.isVisible()) return;
       Swal.fire({
         title: "Error!",
         text: `Alguma coisa deu errado, tente novamente mais tarde. Codigo: ${error}`,

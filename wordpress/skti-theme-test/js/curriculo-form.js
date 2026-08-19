@@ -2,13 +2,10 @@ const form = document.getElementById("form-curriculum");
 const button = document.getElementById("button");
 const fileInput = document.querySelector(".file-input");
 const fileName = document.getElementById("fileName");
-const MAX_FILE_SIZE = 4 * 1024 * 1024;
+const MAX_FILE_SIZE = 3 * 1024 * 1024;
 
 const phoneMask = IMask(document.getElementById("phone"), {
-  mask: [
-    { mask: "(00) 0000-0000" },
-    { mask: "(00) 00000-0000" },
-  ],
+  mask: [{ mask: "(00) 0000-0000" }, { mask: "(00) 00000-0000" }],
   dispatch: (appended, dynamicMasked) => {
     const digits = (dynamicMasked.value + appended).replace(/\D/g, "");
     return digits.length > 10
@@ -111,6 +108,7 @@ form.addEventListener("submit", function (e) {
           confirmButtonText: "Ok",
         });
       } else {
+        if (Swal.isVisible()) return;
         let message = "Alguma coisa deu errado, tente novamente mais tarde";
         let details = "";
         try {
@@ -153,6 +151,7 @@ form.addEventListener("submit", function (e) {
     })
     .catch((error) => {
       console.log(error);
+      if (Swal.isVisible()) return;
       Swal.fire({
         title: "Error!",
         text: `Alguma coisa deu errado, tente novamente mais tarde. Codigo: ${error}`,

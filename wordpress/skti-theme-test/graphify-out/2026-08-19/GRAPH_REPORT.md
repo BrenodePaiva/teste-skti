@@ -1,7 +1,7 @@
-# Graph Report - skti-theme-test  (2026-08-19)
+# Graph Report - skti-theme-test  (2026-08-18)
 
 ## Corpus Check
-- 18 files · ~67,855 words
+- 18 files · ~67,845 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
@@ -10,7 +10,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `d2108743`
+- Built from commit: `ff03c11a`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
