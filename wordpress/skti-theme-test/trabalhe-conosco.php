@@ -13,12 +13,6 @@ get_header('new');
             <div class="contact-form">
                 <h2>Trabalhe Conosco</h2>
                 <form id="form-curriculum">
-                    <!-- <input type="hidden" name="access_key" value="c9cf2954-68ba-4c12-a1b9-cd8cadf1451b"/>
-                    <input type="hidden" name="replyto" value="sktisolucoes@gmail.com"/>
-                    <input type="hidden" name="from_name" value="Skti Site Currículo"/>
-                    <input type="hidden" name="subject" value="Um currículo foi enviado"/> -->
-                    <!-- <input type="hidden" name="replyto" value="outsystems.suporte.teste@gmail.com"/> -->
-
                     <div class="input-box">
                         <div class="input-field field">
                             <input type="text" name="name" placeholder="Nome" class="item" id="name"/>

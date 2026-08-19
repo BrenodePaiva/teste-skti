@@ -58,7 +58,7 @@ fileInput.addEventListener("change", () => {
         text:
           file.type !== "application/pdf"
             ? "Anexe um arquivo em formato PDF"
-            : "O currículo deve ter no máximo 4 MB",
+            : "O currículo deve ter no máximo 3 MB",
         icon: "error",
         confirmButtonText: "Ok",
       });
@@ -83,7 +83,7 @@ form.addEventListener("submit", function (e) {
   if (hasErrors || invalidPdf || oversized) {
     Swal.fire({
       title: "Error!",
-      text: "Preencha todos os campos e anexe seu currículo em PDF (máx. 4 MB)",
+      text: "Preencha todos os campos e anexe seu currículo em PDF (máx. 3 MB)",
       icon: "error",
       confirmButtonText: "Ok",
     });
